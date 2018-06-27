@@ -12,11 +12,14 @@
     mode: a+x
   become: true
 
-# - name: configurações minikube
-#   get_url:
-#     url: http://example.com/path/file.conf
-#     dest: /etc/foo.conf
-#     mode: 0440
+- name: Minikube start
+  shell: minikube start
+
+- name: Deployment
+  shell: kubectl create -f /home/jakeline/git/desafio-devops/kubernetes/app/deployment.yaml 
+
+- name: Service
+  shell: kubectl create -f /home/jakeline/git/desafio-devops/kubernetes/app/service.yaml 
 
 # - name: configurações kubectl
 #   get_url:
