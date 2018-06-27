@@ -1,0 +1,25 @@
+- name: download minikube
+  get_url:
+    url: https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+    dest: /usr/local/bin/minikube
+    mode: a+x
+  become: true
+
+- name: download kubectl
+  get_url:
+    url: https://storage.googleapis.com/kubernetes-release/release/v1.10.5/bin/linux/amd64/kubectl
+    dest: /usr/local/bin/kubectl
+    mode: a+x
+  become: true
+
+# - name: configurações minikube
+#   get_url:
+#     url: http://example.com/path/file.conf
+#     dest: /etc/foo.conf
+#     mode: 0440
+
+# - name: configurações kubectl
+#   get_url:
+#     url: http://example.com/path/file.conf
+#     dest: /etc/foo.conf
+#     mode: 0440
