@@ -14,18 +14,3 @@
 
 - name: Minikube start
   shell: minikube start
-
-# - name: Deployment
-#   shell: kubectl create -f /home/jakeline/git/desafio-devops/kubernetes/app/deployment.yml 
-
-# - name: Service
-#   shell: kubectl create -f /home/jakeline/git/desafio-devops/kubernetes/app/service.yml
-
-# - name: database
-#   shell: kubectl create -f /home/jakeline/git/desafio-devops/kubernetes/db/statefulset.yml 
-
-# - name: Service DB
-#   shell: kubectl create -f /home/jakeline/git/desafio-devops/kubernetes/db/service-db.yml 
-
-# - name: Authorization
-#   shell: kubectl create -f /home/jakeline/git/desafio-devops/kubernetes/db/authorization.yml 
