@@ -2,5 +2,5 @@
 - hosts: local
   tasks:
 
-  - import_tasks: install.yml
-  # - import_tasks: create-objects.yml
+  # - import_tasks: install.yml
+  - import_tasks: create-objects.yml
