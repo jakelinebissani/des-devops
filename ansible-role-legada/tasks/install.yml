@@ -5,11 +5,11 @@
     url: https://storage.googleapis.com/kubernetes-release/release/v1.10.5/bin/linux/amd64/kubectl
     dest: /usr/local/bin/kubectl
     mode: a+x
-  become_user: jakeline
+  # become_user: jakeline
 
 - name: download minikube
   get_url:
     url: https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
     dest: /usr/local/bin/minikube
     mode: a+x
-  become_user: jakeline
+  # become_user: jakeline

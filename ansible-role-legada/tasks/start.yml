@@ -1,5 +1,6 @@
 ---
 
-- name: Minikube start
-  shell: minikube start
-  become_user: jakeline
+- hosts: local
+  tasks:
+  - name: Minikube start
+    shell: minikube start

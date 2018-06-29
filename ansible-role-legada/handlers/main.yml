@@ -1,5 +1,0 @@
----
-handlers:
-  - service: start minikube
-      name: minikube
-      state: started
