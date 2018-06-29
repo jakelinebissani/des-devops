@@ -1,0 +1,5 @@
+---
+
+- name: Minikube start
+  shell: minikube start
+  become_user: jakeline

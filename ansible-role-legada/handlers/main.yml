@@ -1,2 +1,5 @@
 ---
-# handlers file for role
+handlers:
+  - service: start minikube
+      name: minikube
+      state: started
