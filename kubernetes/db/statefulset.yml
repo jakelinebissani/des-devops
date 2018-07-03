@@ -1,3 +1,4 @@
+
 apiVersion: apps/v1beta1
 kind: StatefulSet
 metadata:
@@ -18,9 +19,9 @@ spec:
             - name: MYSQL_DATABASE
               value: "legada"
             - name: MYSQL_USER
-              value: "admin"
-            - name: MYSQL_PASSWORD
-              value: "admin"
+              value: "root"
+            - name: MYSQL_ALLOW_EMPTY_PASSWORD
+              value: "1"
           volumeMounts:
             - name: volume-mysql
               mountPath: /var/lib/mysql
