@@ -9,6 +9,6 @@ Instalação preparada para ambientes Ubuntu
     - ansible-playbook -vv ansible-role-legada/tasks/start.yml
     - ansible-playbook -vv ansible-role-legada/tasks/create-objects.yml
     
-  - Assim que os objetos forem criados, digitar no terminal o comando para cessar a url do wordpress:
+  - Assim que os objetos forem criados, digitar no terminal o comando para acessar a url do wordpress:
     - minikube service service  --url
    
