@@ -5,6 +5,6 @@ Instalação preparada para ambientes Ubuntu
  
  - Depois, de instalado, executar os seguintes comandos no terminal, dessa forma: 
  
-   sudo ansible-playbook -vv ansible-role-legada/tasks/main.yml
-    ansible-playbook -vv ansible-role-legada/tasks/start.yml
-    ansible-playbook -vv ansible-role-legada/tasks/create-objects.yml 
+    - sudo ansible-playbook -vv ansible-role-legada/tasks/main.yml
+    - ansible-playbook -vv ansible-role-legada/tasks/start.yml
+    - ansible-playbook -vv ansible-role-legada/tasks/create-objects.yml 
