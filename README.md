@@ -5,9 +5,9 @@ Instalação preparada para ambientes Ubuntu
  
  - Depois, de instalado, executar os seguintes comandos no terminal, dessa forma: 
  
-    - sudo ansible-playbook -vv ansible-playbboks/install.yml
-    - ansible-playbook -vv ansible-playbboks/start.yml
-    - ansible-playbook -vv ansible-playbboks/create-objects.yml
+    - sudo ansible-playbook -vv ansible-playbooks/install.yml
+    - ansible-playbook -vv ansible-playbooks/start.yml
+    - ansible-playbook -vv ansible-playbooks/create-objects.yml
     
   - Assim que os objetos forem criados, digitar no terminal o comando para acessar a url do wordpress:
     - minikube service service  --url
