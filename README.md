@@ -5,8 +5,8 @@ Instalação preparada para ambientes Ubuntu
  
  - Depois, de instalado, executar os seguintes comandos no terminal, dessa forma: 
  
-    - sudo ansible-playbook -vv ansible-role-legada/tasks/main.yml
-    - ansible-playbook -vv ansible-role-legada/tasks/start.yml
+    - sudo ansible-playbook -vv ansible-playbboks/install.yml
+    - ansible-playbook -vv ansible-rplaybboks/start.yml
     - ansible-playbook -vv ansible-role-legada/tasks/create-objects.yml
     
   - Assim que os objetos forem criados, digitar no terminal o comando para acessar a url do wordpress:
